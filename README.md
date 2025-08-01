@@ -12,15 +12,15 @@ An AI chatbot that gives career advice in Hindi, Spanish, French, or English —
 
 ## Setup
 ```bash
-git clone https://github.com/your-username/llama-career-coach-bot.git
-cd llama-career-coach-bot
+git clone https://github.com/Ntjawla/Multilingual-Career-Coach-AI.git
+cd Multilingual-Career-Coach-AI
 pip install -r requirements.txt
 huggingface-cli login
 ```
 
 ## Run the App
 ```bash
-streamlit run app/chatbot_ui.py
+streamlit run chatbot_ui.py
 ```
 
 ## Models Used
