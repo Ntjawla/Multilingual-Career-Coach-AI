@@ -1,8 +1,8 @@
 
 import streamlit as st
-from app.core_llm import get_llama_response
-from app.translator import detect_lang, translate_text
-from app.resume_analysis import analyze_resume
+from core_llm import get_llama_response
+from translator import detect_lang, translate_text
+from resume_analysis import analyze_resume
 
 st.set_page_config(page_title="LLaMA Career Coach", layout="centered")
 st.title("🦙💼 Multilingual Career Coach AI")
