@@ -14,6 +14,9 @@ An AI chatbot that gives career advice in Hindi, Spanish, French, or English —
 ```bash
 git clone https://github.com/Ntjawla/Multilingual-Career-Coach-AI.git
 cd Multilingual-Career-Coach-AI
+python -m venv venv
+venv\Scripts\activate
+pip install --upgrade pip
 pip install -r requirements.txt
 huggingface-cli login
 ```
