@@ -5,7 +5,7 @@ from translator import detect_lang, translate_text
 from resume_analysis import analyze_resume
 
 st.set_page_config(page_title="LLaMA Career Coach", layout="centered")
-st.title("🦙💼 Multilingual Career Coach AI")
+st.title("Multilingual Career Coach AI")
 st.caption("Powered by LLaMA 3.2, NLLB, and Streamlit")
 
 st.markdown("Enter your career question in any language, or upload your resume for suggestions.")
